@@ -1,8 +1,5 @@
 # jfactor
 
-[![Build Status](https://travis-ci.org/starblue/jfactor.svg?branch=master)](https://travis-ci.org/starblue/jfactor)
-[![Coverage Status](https://coveralls.io/repos/starblue/jfactor/badge.svg?branch=master&service=github)](https://coveralls.io/github/starblue/jfactor?branch=master)
-
 [Documentation](https://starblue.github.io/jfactor)
 
 A library for factoring integers and computing various related functions.
