@@ -62,7 +62,7 @@ pub fn factor(n: u32) -> BTreeMap<u32, u32> {
 }
 
 
-/// Finds a factor using Pollard's rho algorithm
+/// Finds a factor using Pollard's rho algorithm.
 ///
 /// The expected runtime is O(sqrt(f)) where f is the smallest factor of n.
 /// This implies an expected runtime on the order of the fourth root of n.
@@ -156,7 +156,7 @@ fn find_large_factor(n: u32) -> u32 {
 }
 
 
-/// Finds the largest prime factor of an integer
+/// Finds the largest prime factor of an integer.
 ///
 pub fn largest_prime_factor(n: u32) -> Option<u32> {
     factor(n).keys().last().cloned()
