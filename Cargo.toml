@@ -1,0 +1,8 @@
+[package]
+name = "jfactor"
+version = "0.1.0"
+authors = ["Juergen Stuber <juergen@jstuber.net>"]
+
+[dependencies]
+num = "*"
+primal = "0.2"
