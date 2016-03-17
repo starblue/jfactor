@@ -7,7 +7,7 @@ readme = "README.md"
 keywords = ["encoding"]
 repository = "https://github.com/starblue/jfactor"
 homepage = "https://github.com/starblue/jfactor"
-documetation = "https://starblue.github.io/jfactor"
+documentation = "https://starblue.github.io/jfactor"
 description = """
 A library for factoring integers and computing various related functions.
 """
