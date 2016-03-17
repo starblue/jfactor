@@ -15,3 +15,6 @@ A library for factoring integers and computing various related functions.
 [dependencies]
 num = "0.1"
 primal = "0.2"
+
+[features]
+bench = []

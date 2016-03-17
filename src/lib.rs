@@ -3,7 +3,9 @@
 #![warn(missing_docs)]
 
 #![cfg_attr(all(feature = "bench", test), feature(test))]
-#![cfg_attr(test, feature(test))]
+
+#[cfg(all(feature = "bench", test))]
+extern crate test;
 
 extern crate num;
 

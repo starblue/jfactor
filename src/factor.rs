@@ -165,10 +165,7 @@ pub fn largest_prime_factor(n: u32) -> Option<u32> {
 
 #[cfg(test)]
 mod tests {
-    extern crate test;
-
     use std::collections::BTreeMap;
-    use self::test::Bencher;
 
     use super::*;
 
@@ -231,6 +228,16 @@ mod tests {
 
         assert_eq!(expected, actual);
     }
+}
+
+
+#[cfg(test)]
+#[cfg(all(feature = "bench", test))]
+mod benchmarks {
+    use test::Bencher;
+
+    use super::*;
+
 
     #[bench]
     fn bench_factor_low_range(b: &mut Bencher) {
